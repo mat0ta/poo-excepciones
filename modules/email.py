@@ -13,5 +13,3 @@ def comprobarMail():
             email = str(input('Email no váido, por favor, introduzcalo de nuevo: '))
             return comprobarMail()
     print('Email válido, gracias.')
-
-comprobarMail()
